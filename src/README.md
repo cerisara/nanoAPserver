@@ -7,3 +7,8 @@ So you should configure the main web server (apache or nginx) to proxy the reque
 - to .well-known/ into http://127.0.0.1:5000 (for the webfinger)
 - to nanoAP/ also into http://127.0.0.1:5000 (for ActivityPub)
 
+This can be done as follows with Apache:
+
+    ProxyPass "/.well-known/" "http://127.0.0.1:5000/.well-known/"
+    ProxyPass "/nanoAP/" "http://127.0.0.1:5000/nanoAP/"
+

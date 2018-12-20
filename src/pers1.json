@@ -1,0 +1,29 @@
+{
+	"@context": [
+		"https://www.w3.org/ns/activitystreams",
+		"https://w3id.org/security/v1"
+	],
+
+	"id": "https://uldocs.atilf.fr/nanoAP/users/pers1.json",
+	"type": "Person",
+	"preferredUsername": "pers1",
+	"name": "pers1",
+	"inbox": "https://uldocs.atilf.fr/nanoAP/users/pers1/inbox.json",
+	"outbox": "https://uldocs.atilf.fr/nanoAP/users/pers1/outbox.json",
+
+        "followers": "https://uldocs.atilf.fr/nanoAP/users/pers1/followers.json",
+        "following": "https://uldocs.atilf.fr/nanoAP/users/pers1/following.json",
+
+        "summary": "<p>First user</p>",
+	"tag": [],
+
+        "manuallyApprovesFollowers": false,
+        "attachment": [],
+
+	"publicKey": {
+		"id": "https://uldocs.atilf.fr/nanoAP/users/pers1.json#main-key",
+		"owner": "https://uldocs.atilf.fr/nanoAP/users/pers1.json",
+		"publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyQSLIz/yqOifVsQ9JQ72\nZWqYOF9H4hhFbLqGHq/rqtM3NsKnZrczeRAHmcgFd+SJ9VrJPqNvIi7J5yhqHmYF\nshNDuoqJMAH4sNpHZtvh/+3FmsvTbYx1lpGwzb4OmaWvaVnuL1O1M4bSIBKY3w4a\nxGvCVVKmZHVvA0Wx4ixxaWA4lPxaTJ2KBPQgV2nmtHOJZmv4Cx7tFo3s2e1q2LU+\nrArmxyemsb0ZiBOW/vNJxf43hpl+xjxVBj9soo3MhH83lFTEvi1iv4igIHB4Kjn9\nnoxKHuwMz+sXZ4qUC4+QKZPcM1cEjicHQFV4AHN+XNIX7xTqSxx2lL+jZ8KOMhXB\nxwIDAQAB\n-----END PUBLIC KEY-----\n"
+	}
+}
+
