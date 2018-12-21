@@ -12,3 +12,6 @@ This can be done as follows with Apache:
     ProxyPass "/.well-known/" "http://127.0.0.1:5000/.well-known/"
     ProxyPass "/nanoAP/" "http://127.0.0.1:5000/nanoAP/"
 
+to force a JSON response from a mastodon endpoint:
+curl -i -H "Accept: application/json"
+
